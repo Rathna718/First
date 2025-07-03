@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="lavender">
+    <h2><font color="Blue"><u>Student Registration Form Using Table in HTML</u></font color></h2>
+    <form action="submit" method="post">
+        <label for="name">First Name </label>&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;<input type="text" id="name" name="name" required> (Max 50 Characters Allowed)<br><br>
+
+        <label for="name">Last Name </label>&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;<input type="text" id="name" name="name" required> (Max 50 Characters Allowed)<br><br>
+
+        <label for="email">Email ID</label>&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;<input type="email" id="email" name="email"><br><br>
+
+        <label for="mobilenumber">Mobile Number </label>&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;<input type="text" id="mobilenumber" name="mobilenumber" required> (10 Digits Allowed)<br><br>
+
+        Gender:&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;<input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+
+        &emsp;&emsp;&emsp;<input type="radio" id="male" name="gender">
+        <label for="male">Male</label><br><br>
+
+        <label for="dob">Date of Birth:</label>&emsp;&emsp;
+         &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;<input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="Address">Address</label>&emsp;&emsp;&emsp;&emsp;&nbsp;
+         &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;<textarea name="Address" rows="5" cols="30"></textarea><br><br>
+
+        <label for="City">City </label>&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+         &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="text" id="City" name="City" required> (Max 50 Characters Allowed)<br><br>
+
+        <label for="pincode">Pin Code</label>&emsp;&emsp;&emsp;&nbsp;
+         &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;<input type="text" id="pincode" name="pincode" required> (Max 6 Characters Allowed)<br><br>
+
+        <label for="State">State</label>&emsp;&emsp;&emsp;&emsp;&emsp;
+         &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;<input type="text" id="State" name="State" required> (Max 50 Characters Allowed)<br><br>
+
+        <label for="Country">Country </label>&emsp;&emsp;&emsp;&nbsp;&nbsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;<input type="text" id="Country" name="Country" required><br><br>
+
+        Hobbies&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;<input type="checkbox" id="drawing" name="hobbies[]" value="drawing">
+        <label for="drawing">Drawing</label>
+
+        <input type="checkbox" id="singing" name="hobbies[]" value="singing">
+        <label for="singing">Singing</label>
+
+        <input type="checkbox" id="Dancing" name="hobbies[]" value="Dancing">
+        <label for="Dancing">Dancing</label>
+
+        <input type="checkbox" id="sketching" name="hobbies[]" value="sketching">
+        <label for="sketching">Sketching</label><br>
+
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&nbsp;&nbsp;<input type="checkbox" id="Others" name="hobbies[]" value="Others">
+        <label for="Others">Others</label>
+
+         <input type="text" id="text" name="text" placeholder="Ex.Teaching" required> (Max 50 Characters Allowed)<br><br>
+
+         Qualification&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;<input type="checkbox" name="Qualification">
+        <label for="Qualification">High School(10th)</label><br>
+        &nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;<input type="checkbox" name="Qualification">
+        <label for="Qualification">Higher School(12th)</label><br>
+        &nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;<input type="checkbox" name="Qualification">
+        <label for="Qualification">Graduation(Bachelor)</label><br>
+        &nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;<input type="checkbox" name="Qualification">
+        <label for="Qualification">Post Graduation(Masters)</label><br>
+        &nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;<input type="checkbox" name="Qualification">
+        <label for="Qualification">Phd</label><br><br>
+
+        Courses Applied for
+        &nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="radio" name="course">
+        <label for="course">BCA(Bachelor of Computer Application)</label><br>
+        &nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="radio" name="course">
+        <label for="course">B.Com(Bachelor of Commerce)</label><br>
+        &nbsp; &nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="radio" name="course">
+        <label for="course">B.Sc(Bachelor of Science)</label><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="radio" name="course">
+        <label for="course">BA(Bachelor of Arts)</label><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="radio" name="course">
+        <label for="course">MCA(Master of Computer Application)</label><br>
+         &nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="radio" name="course">
+        <label for="course">M.Com(Master of Commerce)</label><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="radio" name="course">
+        <label for="course">M.Sc(Master of Science)</label><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="radio" name="course">
+        <label for="course">MA(Master of Arts)</label><br><br><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="radio" name="course">
+
+        <input type="submit" value="Submit">
+
+        &emsp;<input type="reset" value="Reset">
+    </form>
+    </body>
+    </html>
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
